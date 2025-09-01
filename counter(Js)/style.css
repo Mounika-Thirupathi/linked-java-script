@@ -1,0 +1,26 @@
+html,body{
+    margin-top:10%;
+    margin-left:20%;
+    background-color: lightgray;
+}
+#green{
+    background-color: greenyellow;
+    padding: 12px 24px;
+    margin: 5px;
+    border:1px solid black;
+    cursor: pointer;
+}
+#red{
+    background-color: red;
+    padding: 12px 24px;
+    margin: 5px;
+    border:1px solid black;
+    cursor: pointer;
+}
+#blue{
+    background-color: blue;
+    padding: 12px 24px;
+    margin: 5px;
+    border:1px solid black;
+    cursor: pointer;
+}
