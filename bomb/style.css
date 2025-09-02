@@ -1,0 +1,15 @@
+html,body{
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color: darkblue;
+    color: white;
+}
+#button{
+    padding: 7px 12px;
+    background-color:orange;
+    color:white;
+    border:1px solid black;
+    margin:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
