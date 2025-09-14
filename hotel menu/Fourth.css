@@ -1,0 +1,35 @@
+  html,body{
+        margin-top: 20px;
+        margin-left: 50px;
+        background-color: antiquewhite;
+    }
+    .containers{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:100px;
+    }
+    .btn{
+        padding: 1px 5px;
+        border: 1px solid green;
+        border-radius: 7px;
+        background-color: green;
+        color: white;
+        margin-left: 100px;
+    }
+    #button{
+        border: 1px solid orangered;
+        border-radius: 10px;
+        background-color: orangered;
+        color: white;
+        padding: 7px 28px;
+        margin-top: 70px;
+
+    }
+    .cart{
+        display: flex;
+        gap:100px
+        
+    }

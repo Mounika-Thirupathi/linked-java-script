@@ -1,0 +1,61 @@
+html,body{
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: pink;
+}
+#container{
+        display: grid;
+        gap:30px;
+        margin-top: 10px;
+        margin-left: 30px;
+       
+           
+}
+
+#button1{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    /* margin: 3px; */
+}
+
+#button2{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    /* margin: 3px; */
+    
+
+}
+
+#button3{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    /* margin: 3px; */
+}
+
+#button4{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    /* margin: 3px; */
+}
+
+#button5{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    /* margin: 3px; */
+}
+#button6{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 80px;
+
+}
+.buttons{
+    padding: 7px 28px;
+    /* margin:5px; */
+}

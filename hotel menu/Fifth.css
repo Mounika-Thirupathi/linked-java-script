@@ -1,0 +1,31 @@
+   html,body{
+        margin-top: 5px;
+        margin-left: 50px;
+        background-color: antiquewhite;
+    }
+    .containers{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:100px;
+    }
+    .btn{
+        padding: 3px 15px;
+        border: 1px solid red;
+        border-radius: 7px;
+        background-color: red;
+        color: white;
+    }
+    #non{
+        padding: 7px 28px;
+        margin-top: 30px;
+        border-radius: 7px;
+        border:1px solid orange;
+        background-color: orange;
+    }
+    .cart{
+        display: flex;
+        gap:160px
+    }

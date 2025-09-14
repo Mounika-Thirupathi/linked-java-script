@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    p{
+        margin-left: 100px;
+        font-size: larger;
+
+    }
+
+</style>
+<body>
+    <form id="container">
+    <h1 style="margin-left: 120px;">User Login Form</h1>
+    <input id="name"type="text" placeholder="Enter Your Name">
+    <br/>
+    <input id="pwd"type="password" placeholder="Enter Your Password">
+    <br/>
+    <input id="check" type="checkbox" onclick="toggle()">
+    <label style="font-size: larger;" for="showPassword">Show Password</label>
+    <br/>
+    <button onclick="display(event)" id="btn">Submit</button>
+    <br/>
+    <p id="message"></p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
